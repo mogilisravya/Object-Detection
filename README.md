@@ -1,4 +1,7 @@
 # Object detection using deep learning with OpenCV and Python 
+ 
+### sample output :
+ ![](object-detection.jpg)
 
 OpenCV `dnn` module supports running inference on pre-trained deep learning models from popular frameworks like Caffe, Torch and TensorFlow. 
 
@@ -32,9 +35,6 @@ When it comes to object detection, popular detection frameworks are
  
  _$ python yolo_opencv.py --image /path/to/input/image --config /path/to/config/file --weights /path/to/weights/file --classes /path/to/classes/file_
  
- 
- ### sample output :
- ![](object-detection.jpg)
  
 Checkout the object detection implementation available in [cvlib](http:cvlib.net) which enables detecting common objects in the context through a single function call `detect_common_objects()`.
  
